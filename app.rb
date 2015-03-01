@@ -1,5 +1,6 @@
 require 'sinatra'
 
 get '/' do
-  'hello mate!'
+  @active = 'home'
+  erb :index
 end
