@@ -1,6 +1,6 @@
 require 'sinatra'
+require 'slim'
 
 get '/' do
-  @active = 'home'
-  erb :index
+  slim :main
 end
