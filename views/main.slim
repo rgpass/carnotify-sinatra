@@ -19,33 +19,60 @@ nav.navbar class='navbar-default'
   h1 Maintenance Report
   h3.header-sub-title Honda Accord 2002
 
-section#cd-timeline class='cd-container'
-
+section#cd-timeline class='cd-container'      
   .cd-timeline-block
     .cd-timeline-img class='cd-picture' 
       img src='img/cd-icon-picture.svg' alt='Picture'
 
     .cd-timeline-content
-      - @report_10000[0]['items'].each do |item|
-        h2 = item['action']
-        p  = item['itemDescription']
-      a.cd-read-more class='btn btn-primary' href='#0' Read more
-      span.cd-date = @report_10000[0]['items'].first['intervalMileage']
+      #accordion.panel-group.tips
+      .panel.panel-info
+        .panel-heading
+          h4.panel-title
+            a href="#collapse1" data-toggle="collapse" data-parent="#accordion"
+              | Change engine oil
+        #collapse1.panel-collapse.collapse
+          .panel-body
+            | A substance that lubricates and cools the moving parts of the engine and reduces corrosion and the formation of rust.
+      #accordion.panel-group.tips
+      .panel.panel-info
+        .panel-heading
+          h4.panel-title
+            a href="#collapse2" data-toggle="collapse" data-parent="#accordion"
+              | Rotate/adjust air pressure wheels & tires
+        #collapse2.panel-collapse.collapse
+          .panel-body
+            | A circular frame of hard material that may be solid or partly solid, is capable of turning on an axle, and holds the rubber cushion that contains compressed air.
+      span.cd-date 10k
 
   .cd-timeline-block
     .cd-timeline-img class='cd-movie'
       img src='img/cd-icon-movie.svg' alt='Movie'  
 
     .cd-timeline-content
-      - @report_15000[0]['items'].each do |item|
-        h2 = item['action']
-        p  = item['itemDescription']
-      a.cd-read-more class='btn btn-primary' href='#0' Read more
-      span.cd-date = @report_15000[0]['items'].first['intervalMileage']
+      #accordion.panel-group.tips
+      .panel.panel-info
+        .panel-heading
+          h4.panel-title
+            a href="#collapse3" data-toggle="collapse" data-parent="#accordion"
+              | Inspect fluid levels
+        #collapse3.panel-collapse.collapse
+          .panel-body
+            | The amount of liquid in reservoirs and sumps accessible from the topside of the vehicle: engine coolant, automatic transmission fluid, windshield washer fluid, power steering fluid, brake and/or clutch fluid, and engine oil.
+      #accordion.panel-group.tips
+      .panel.panel-info
+        .panel-heading
+          h4.panel-title
+            a href="#collapse4" data-toggle="collapse" data-parent="#accordion"
+              | Rotate/adjust air pressure wheels & tires
+        #collapse4.panel-collapse.collapse
+          .panel-body
+            | A circular frame of hard material that may be solid or partly solid, is capable of turning on an axle, and holds the rubber cushion that contains compressed air.
+      span.cd-date 15k
 
   .cd-timeline-block
     .cd-timeline-img class='cd-picture'
-      h1.bubble-text 7.5k
+      img src='img/cd-icon-movie.svg' alt='Movie'
 
     .cd-timeline-content
       - @report_20000[0]['items'].each do |item|
