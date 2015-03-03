@@ -41,6 +41,13 @@ header {
   border-radius: 1px;
 }
 
+.panel-body {
+  font-size: 1.33em;
+}
+
+.panel-info {
+  border-color: transparent;
+}
 .panel-group {
   margin: 0px;
 }
@@ -51,7 +58,7 @@ header {
 .cd-timeline-content {
   background-color: #E0E0E0;
   padding: 0px;
-  box-shadow: 0 1px 0 #d7e4ed;
+  box-shadow: 0 2px 4px #d7e4ed;
   border-radius: 4px;
 }
 
