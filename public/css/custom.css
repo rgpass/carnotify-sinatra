@@ -32,6 +32,9 @@ header, header h1 {
   font-size: 1.2em;
 }
 
+.header-mileage {
+  margin-top: 2.7em;
+}
 .cd-timeline-content {
   background-color: #F0F0F0;
   padding: 0px;
@@ -67,8 +70,9 @@ header, header h1 {
   margin: 0px;
 }
 
-.panel-info {
+.panel-primary {
   border-color: transparent;
+  cursor: context-menu;
 }
 
 .panel-heading {
