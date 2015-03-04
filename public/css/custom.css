@@ -79,6 +79,13 @@ header, header h1 {
   font-size: 1.33em;
 }
 
+.multiples-right {
+  float: right;
+  margin-right: 43%;
+  font-size: 2em;
+}
+
+
 
 
 
