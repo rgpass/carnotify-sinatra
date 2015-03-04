@@ -32,35 +32,6 @@ header, header h1 {
   font-size: 1.2em;
 }
 
-.panel {
-  margin: 0px;
-  border-width: 1px;
-  border-radius: 1px;
-}
-
-.panel-title {
-  font-size: 1.7em;
-}
-
-.panel-title a:hover {
-  text-decoration: none;
-  color: rgb(61, 61, 56);
-}
-
-.panel-body {
-  font-size: 1.33em;
-}
-
-.panel-info {
-  border-color: transparent;
-}
-.panel-group {
-  margin: 0px;
-}
-
-.panel-heading {
-  padding: 10px;
-}
 .cd-timeline-content {
   background-color: #F0F0F0;
   padding: 0px;
@@ -71,13 +42,44 @@ header, header h1 {
 .cd-timeline-content .cd-read-more {
   background-color: #008cba;
   border-color: #0079a1;
-}
-
-.cd-timeline-content .cd-read-more {
   padding-top: -5px;
   float: right;
 }
 
-.cd-timeline-img .cd-picture {
+.cd-picture h2, .cd-movie h2, .cd-location h2 {
   text-align: center;
+  font-size: 2em;
+  color:white;
+  margin-top: 30%;
 }
+
+.panel {
+  margin: 0px;
+  border-width: 1px;
+  border-radius: 1px;
+}
+
+.panel-group {
+  margin: 0px;
+}
+
+.panel-info {
+  border-color: transparent;
+}
+
+.panel-heading {
+  padding: 10px;
+}
+
+.panel-title {
+  font-size: 1.7em;
+}
+
+.panel-body {
+  font-size: 1.33em;
+}
+
+
+
+
+
