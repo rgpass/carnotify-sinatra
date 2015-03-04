@@ -46,6 +46,10 @@ header, header h1 {
   float: right;
 }
 
+.cd-timeline-content .cd-date {
+  font-size: 1.5em
+}
+
 .cd-picture h2, .cd-movie h2, .cd-location h2 {
   text-align: center;
   font-size: 2em;
